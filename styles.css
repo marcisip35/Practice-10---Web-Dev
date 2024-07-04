@@ -1,0 +1,121 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  :root{
+    --purple: #ab5df0;
+  }
+  
+  body{
+    background-color: #383836;
+  }
+  
+  .wrapper{
+    height: 800px;
+    width: 100vw;
+  
+    display: grid;
+    place-items: center;
+  }
+  
+  .container{
+    width: 600px;
+    height: 80%;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .title{
+    height: 15%;
+    width: 100%;
+    font-family: "Ga Maamli", sans-serif;
+  
+    display: grid;
+    place-items: center;
+  }
+  
+  .title h1{
+    font-size: 60px;
+    color: var(--purple);
+  }
+  
+  .palindromeCard{
+    width: 100%;
+    height: 45%;
+    border-radius: 32px;
+    background-color: white;
+    font-family: sans-serif;
+    box-shadow: 0px 5px 4px 0px var(--purple);
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .palindromeItemTop{
+    height: 33%;
+  
+    display: flex;
+    place-items: center;
+  }
+  
+  .palindromeItemTop p{
+    letter-spacing: 0.5px;
+    font-size: 20px;
+  }
+  
+  .palindromeItemMiddle{
+    width: 80%;
+    height: 33%;
+  
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+  }
+  
+  input:focus{
+      outline: none;
+  }
+  
+  .palindromeItemMiddle input{
+    width: 70%;
+    border: none;
+    border-bottom: 2px solid var(--purple);
+  }
+  
+  .palindromeItemMiddle button{
+    border-radius: 32px;
+    border: none;
+    background-color: var(--purple);
+    width: 25%;
+    height: 30px;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .palindromeItemBottom{
+    height: 33%;
+  }
+  
+  span{
+    font-weight: 700;
+  }
+  
+  .aboutCard{
+    width: 100%;
+    background-color: #c9ae10;
+    border-radius: 32px;
+    padding: 20px;
+    font-family: sans-serif;
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: white;
+  }
+  
